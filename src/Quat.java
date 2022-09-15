@@ -48,5 +48,11 @@ public class Quat {
     void hienThi(){
         System.out.println(this);
     }
-
+    public static void main(String[] args){
+        Quat q1 = new Quat("sam sung", "quan dung",20000,30);
+        q1.chuyenTrangThaiQuay();
+        q1.hienThi();
+        q1.bat();
+        q1.hienThi();
+    }
 }
