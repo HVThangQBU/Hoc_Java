@@ -22,10 +22,15 @@ public class Student extends Person{
     System.out.println("gpa: "+ gpa);
   }
 
-  @Override
-  public String toString() {
-    String dis = super.toString();
-    return "Student{" +
-      "gpa=" + gpa + dis + '}';
-  }
+//  @Override
+//  public String toString() {
+//    String dis = super.toString();
+//    return "Student{" +
+//      "gpa=" + gpa + dis + '}';
+//  }
+
+
+
+
+
 }

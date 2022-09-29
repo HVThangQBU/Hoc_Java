@@ -1,7 +1,7 @@
 package Person;
 
 public class Person {
-  private String name;
+  String name;
   int age;
   String address;
 
