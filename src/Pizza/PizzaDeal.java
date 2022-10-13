@@ -1,5 +1,10 @@
 package Pizza;
+
+import iShape.IShape;
+
 public class PizzaDeal {
+
+
 
   public double deal(Pizza pz){
         return pz.getPrice() / pz.getShape().getArea();
